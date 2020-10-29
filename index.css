@@ -95,10 +95,12 @@ header #yosemite-title {
 /* footer */
 
 footer {
+  border: 1px red solid; 
   background-color: #F9E7DC; 
-  display: inline-block; 
+  max-width: 100%;
 }
 
-#tunnel-view {
-    max-width: 100%;
+.bottom-picture {
+    width: 100%; 
+    height: 60vh; 
 }
