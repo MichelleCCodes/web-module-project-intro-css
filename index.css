@@ -37,13 +37,35 @@ body {
 nav {
     border: 1px red solid; 
     box-sizing: border-box; 
-    padding: 0 auto; 
 }
+
 /* header */
 
 header {
-    display: inline-block; 
-    width: 40%; 
+display: inline-block; 
+border: 1px solid black; 
 }
 
+header #circle {
+    width: 20%; 
+    border-radius: 50%;
+    border: 1px red solid; 
+}
 
+.header-title {
+    display: inline-block; 
+    width: 20%; 
+    border: 1px red solid; 
+}
+
+/* header specifics */
+header #yosemite-title {
+    font-family: 'Chelsea Market', cursive;
+}
+
+/* block of text */
+
+.main-text {
+    background: #DDB9A3;
+    color: white; 
+}
